@@ -8,4 +8,10 @@ Sileo / Zebra / Cydia 可用的 APT 软件源。
 https://aichihongluobudetuzi.github.io/repo/
 ```
 
-当前仓库为空源（尚无安装包）。把 `.deb` 放到 `debs/` 后重新生成 `Packages` 即可。
+把 `.deb` 放到 `debs/` 并推送到 `master` 后，GitHub Actions 会自动重建 `Packages` / `Release`。
+
+本地手动重建：
+
+```
+bash scripts/update-repo.sh
+```
