@@ -1,0 +1,20 @@
+Package: com.xx.xhshook
+Version: 2.0.2
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: X
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Provides: com.xx.xhshook
+Filename: debs/com.xx.xhshook_2.0.2_iphoneos-arm64e.deb
+Size: 3732134
+MD5sum: 9791cf7b245bf97f0e0c77c64a38bce3
+SHA1: 3b59e7016e4c37bc9159e2be88e4261eee063730
+SHA256: 293bde82b3c9977570c6600030b71e0baec2d2a07b764f37ca2c69e11370ef95
+Section: Tweaks
+Priority: optional
+Description: 自用
+Author: X
+Name: 小红薯
+
