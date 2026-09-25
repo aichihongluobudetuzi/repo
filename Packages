@@ -112,6 +112,23 @@ Description: 自用
 Author: X
 Name: 小红薯
 
+Package: github.poqw312.settingsrevamp
+Version: 3.0.1
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader
+Filename: debs/github.poqw312.settingsrevamp_3.0.1_iphoneos-arm64e.deb
+Size: 733702
+MD5sum: c9c2a0276da0376cdbc0641ff89f38af
+SHA1: 8528781cdeb1542f2f941787dd992e11b034ffae
+SHA256: e92fdadb8abacba45a4ad712a40c38424c3a27a5b456cfeb9344b32db80a5f78
+Section: Tweaks
+Description: 自定义iOS设置页面。插件功能总开关在灵动岛下面。
+Author: SOPPPra
+Name: SettingsRevamp-Roothide
+
 Package: iya.banana.openspace
 Version: 0.1.3
 Architecture: iphoneos-arm64e
