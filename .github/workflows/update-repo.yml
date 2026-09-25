@@ -9,6 +9,10 @@ on:
       - '.github/workflows/update-repo.yml'
   workflow_dispatch:
 
+concurrency:
+  group: update-apt-index
+  cancel-in-progress: false
+
 jobs:
   rebuild:
     runs-on: ubuntu-latest
@@ -17,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
       - name: Install dpkg-dev
         run: sudo apt-get update -y && sudo apt-get install -y dpkg-dev
@@ -35,4 +39,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: rebuild APT index after deb upload"
-          git push
+          git pull --rebase origin master
+          git push origin HEAD:master
