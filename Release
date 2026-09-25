@@ -1,11 +1,11 @@
-Origin: 软件源
-Label: 软件源
+Origin: 三七
+Label: 三七
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Sileo / Cydia APT repo
+Description: 三七软件源
 MD5Sum:
  b90f368f2df587173e7158870a8a4816 523 Packages
  5705e46149ecd2435baa7cf07d5a36ab 391 Packages.gz
