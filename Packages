@@ -1,3 +1,20 @@
+Package: com.wkk.fuckydads
+Version: 1.0-5
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
+Filename: debs/com.wkk.fuckydads_1.0-5_iphoneos-arm64e.deb
+Size: 4514
+MD5sum: 406104ab66cc31a5a9f4765dd858ece1
+SHA1: 103c87733aecf3ebb9cb48cfe8202b2a92ca8543
+SHA256: 11871f258afada80aff597d00e32f1062c699651cacb273de5a0542c2d7d8c85
+Section: 去广告
+Description: 去开屏广告，版本：12.0.2，下载好deb后用TrollFools注入，直接安装不生效，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/04/29/b34966d282c3e310d25255d207346202.png
+Name: 中国移动NoAds
+
 Package: com.wkk.trollopenjb
 Version: 1.3.7
 Architecture: iphoneos-arm64e

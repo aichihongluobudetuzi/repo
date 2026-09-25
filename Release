@@ -7,14 +7,14 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 三七软件源
 MD5Sum:
- a0508ddab2d86b0bc0e7ae3366fc2987 2810 Packages
- aa9ff26fd01c4dec24c7f0a21e7b0f36 1556 Packages.gz
- cb7006c443bb7960d4a7a1fa8055a343 1654 Packages.bz2
+ 235e45c488060c7f1b2bba2d79080686 3574 Packages
+ 8a498343706ec4491b8c598a7e4feafb 1767 Packages.gz
+ 323f7391e3a4aa1b489be1a1d3dee42b 1924 Packages.bz2
 SHA1:
- 71ad6d813e2b1b845e5c7b07ea1476ac9adf240f 2810 Packages
- 427c3c3ee8d92fb0dea757685260632669f6d2ab 1556 Packages.gz
- 8b8e2508a59ab801d96f88c9c4d4bd5dc639989e 1654 Packages.bz2
+ 8749c5896c28c09eae2d1ae35c14a37bb9eadd76 3574 Packages
+ 24e57d791ccb2f175b241ed059ae51365f42831e 1767 Packages.gz
+ aa14eda12e7606e6427435206adfdc8699ecbcf9 1924 Packages.bz2
 SHA256:
- 5f7c8d0f0ca1275cc50c6f9767cb217bfa2f06f9c2c708792332c0a1a5ff78f2 2810 Packages
- 8f594eb201578cdf12511854dec269686bcfbceff44ec8506f268a6b0e8e8f20 1556 Packages.gz
- 2d4cf2abd4d869d6355467b86d501ca5538ac4fec2d766bb72ede1b436c8f415 1654 Packages.bz2
+ bbcfc5328d565f9d45ccc7d6b22d49109a2b53e6c3698966acd4b60d2af4ac56 3574 Packages
+ 10625d2cb12738f4ab9d4a47a4a300c346de4e9c1493e0fa2e03b9e1e6e87c3b 1767 Packages.gz
+ 4f318b166d881caafce9a2e3a2d0907d914897f6753d77c36bc4df231bda2c4a 1924 Packages.bz2
