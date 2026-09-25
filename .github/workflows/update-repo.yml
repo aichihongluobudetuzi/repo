@@ -41,3 +41,10 @@ jobs:
           git commit -m "chore: rebuild APT index after deb upload"
           git pull --rebase origin master
           git push origin HEAD:master
+
+      - name: Purge jsDelivr cache
+        if: always()
+        run: |
+          for f in Release Packages Packages.gz Packages.bz2 CydiaIcon.png CydiaIcon@2x.png CydiaIcon@3x.png sileo-featured.json; do
+            curl -fsS "https://purge.jsdelivr.net/gh/aichihongluobudetuzi/repo@master/${f}" || true
+          done
