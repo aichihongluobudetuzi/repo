@@ -30,10 +30,10 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>=17.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4)
 Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
 Filename: debs/com.opa334.craneios17_1.3.17_iphoneos-arm64e.deb
-Size: 1247082
-MD5sum: f7434b076489848de1db32c9815ab75d
-SHA1: 089eb75906df82790efd534e151e35a2c1054b3d
-SHA256: a3769012c723b94f45af9f2c34156a91362a3250697133d5812fea006abdcee6
+Size: 1247116
+MD5sum: 688f1ade8d45204a2fb38119deb033d5
+SHA1: 469d982ed3dfdecc5a6ccab42a7e250f380a1e85
+SHA256: a2a909fa50fb580f5ca45d6d9765e12978fa1f105991763fb85f2c6e1c84e638
 Section: Tweaks
 Description: 应用程序账号分身插件。该插件功能是在一个指定应用程序上可以登入多个账号分身，并不是生成多个分身应用图标。此版本是iOS17专用，推送通知修复版。
 Author: opa334
