@@ -120,10 +120,10 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
 Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader
 Filename: debs/github.poqw312.settingsrevamp_3.0.1_iphoneos-arm64e.deb
-Size: 733702
-MD5sum: c9c2a0276da0376cdbc0641ff89f38af
-SHA1: 8528781cdeb1542f2f941787dd992e11b034ffae
-SHA256: e92fdadb8abacba45a4ad712a40c38424c3a27a5b456cfeb9344b32db80a5f78
+Size: 733822
+MD5sum: 4b2409e0d9889dcf84a24c1399445eda
+SHA1: 5a5a895177c3e377525c2acd8549c1f89fcb0c71
+SHA256: 1d0ed5f114ac131b2f9ff4f9133c083c10416abb7863322b7750917f4066ab6d
 Section: Tweaks
 Description: 自定义iOS设置页面。插件功能总开关在灵动岛下面。
 Author: SOPPPra
