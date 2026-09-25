@@ -18,3 +18,20 @@ Description: 自用
 Author: X
 Name: 小红薯
 
+Package: jp.soh.reprovision
+Version: 1.1.189~release
+Architecture: iphoneos-arm64e
+Maintainer: AmorCool <admin@reprovision.dev>
+Depends: firmware (>= 15.0), zip, unzip
+Filename: debs/jp.soh.reprovision_1.1.189~release_iphoneos-arm64e.deb
+Size: 5324752
+MD5sum: b8cf0239dd0c0bf0f35123d8f117d8d8
+SHA1: 4bc3282e64493a14676e05868f948d2f820b6cd5
+SHA256: f4318dd4062f0f4a7ffdca27e267f8da52d6f3eea82b523e2f172827f75a1f3b
+Section: Utilities
+Priority: optional
+Description: Re-signing tool for iOS jailbreak(iOS17+)
+Author: Coolapk@Analytics
+Icon: file:///Applications/ReSign.app/Icon.png
+Name: ReSign
+
