@@ -1,3 +1,21 @@
+Package: com.wkk.trollopenjb
+Version: 1.3.7
+Architecture: iphoneos-arm64e
+Maintainer: Charlie Leung
+Installed-Size: 4460
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/com.wkk.trollopenjb_1.3.7_iphoneos-arm64e.deb
+Size: 3324542
+MD5sum: 5836e86b64477f55eb196bfb7676111c
+SHA1: 287fdb73b81967bf58b58d498600a4dcd40617bd
+SHA256: 2def0674ce237c52f1b0ad2844e520393c201370cc3e95ced7b3f1c3370ea2a0
+Section: Tweaks
+Description: TrollOpen 的越狱版本，支持 ios16 及以上，免费公开版，无后续更新，不需要反馈 bug。
+Author: Charlie Leung
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: TrollOpen
+
 Package: com.wkk.txsphook
 Version: 1.2-1
 Architecture: iphoneos-arm64e
