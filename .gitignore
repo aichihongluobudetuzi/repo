@@ -174,3 +174,8 @@
 *.lz
 *.lzma
 *.iso
+
+# Keep APT repo index archives
+!Packages.gz
+!Packages.bz2
+!Packages.xz
