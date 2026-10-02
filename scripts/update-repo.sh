@@ -22,15 +22,16 @@ hash_line() {
 }
 
 {
-  cat <<'EOF'
+  cat <<EOF
 Origin: 三七
 Label: 三七
 Suite: stable
-Version: 1.0
+Version: $(date -u +%Y%m%d%H%M%S)
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 三七软件源
+Date: $(date -Ru)
 MD5Sum:
 EOF
   hash_line md5 Packages

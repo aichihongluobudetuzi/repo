@@ -45,6 +45,9 @@ jobs:
       - name: Purge jsDelivr cache
         if: always()
         run: |
-          for f in Release Packages Packages.gz Packages.bz2 CydiaIcon.png CydiaIcon@2x.png CydiaIcon@3x.png sileo-featured.json; do
+          files=(Release Packages Packages.gz Packages.bz2 CydiaIcon.png CydiaIcon@2x.png CydiaIcon@3x.png sileo-featured.json)
+          for f in "${files[@]}"; do
             curl -fsS "https://purge.jsdelivr.net/gh/aichihongluobudetuzi/repo@master/${f}" || true
+            curl -fsS "https://cdn.jsdelivr.net/gh/aichihongluobudetuzi/repo@master/${f}" -H 'Cache-Control: no-cache' >/dev/null || true
+            curl -fsS "https://cdn.jsdmirror.com/gh/aichihongluobudetuzi/repo@master/${f}?t=$(date +%s)" >/dev/null || true
           done
