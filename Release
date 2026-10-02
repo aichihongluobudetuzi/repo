@@ -1,11 +1,12 @@
 Origin: 三七
 Label: 三七
 Suite: stable
-Version: 1.0
+Version: 20261002073648
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 三七软件源
+Date: Fri, 02 Oct 2026 07:36:48 +0000
 MD5Sum:
  a6f30b06f6ba845fcbf9ce873ab7f16f 7362 Packages
  9503afd2507dfa903130966b970bb5ca 3234 Packages.gz
