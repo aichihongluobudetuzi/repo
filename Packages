@@ -110,7 +110,7 @@ Section: Tweaks
 Priority: optional
 Description: 自用
 Author: X
-Name: 小红薯
+Name: 小红薯 2.0.2
 
 Package: github.poqw312.settingsrevamp
 Version: 3.0.1
@@ -182,5 +182,4 @@ Section: Tweaks
 Priority: optional
 Description: 自用
 Author: 𝙓
-Name: 小红薯
-
+Name: 小红薯 2.0.5

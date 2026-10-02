@@ -1,21 +1,21 @@
 Origin: 三七
 Label: 三七
 Suite: stable
-Version: 20261002073648
+Version: 20261002074450
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 三七软件源
-Date: Fri, 02 Oct 2026 07:36:48 +0000
+Date: Fri, 02 Oct 2026 07:44:50 +0000
 MD5Sum:
- a6f30b06f6ba845fcbf9ce873ab7f16f 7362 Packages
- 9503afd2507dfa903130966b970bb5ca 3234 Packages.gz
- 83cd704a04b538695a17677739a7c7cb 3300 Packages.bz2
+ 1e2bdd07b73145240da2c42eec326571 7373 Packages
+ 79e211e8325663823658cae54dd6d272 3236 Packages.gz
+ 3566f3ca2cb77fb78cb74af2bc6be181 3294 Packages.bz2
 SHA1:
- 528aa3e49cad7e1aaa382704b92cadb16a14d674 7362 Packages
- 86cc4b8f389de1e1c00f9938da8f8a01bac738db 3234 Packages.gz
- a88fe611d84081da82315d77711cd8df3355c35d 3300 Packages.bz2
+ afd46dc9b5a711db4150f2278558143655aa28a3 7373 Packages
+ 4147e6f22852900df7c40bab9ed5e2a8ab09985f 3236 Packages.gz
+ f91ec3c1d7927e3b60b3670f8d4d396925d0fdcb 3294 Packages.bz2
 SHA256:
- 184caf7250ff6e3d10f519891cb1bacf424aae752ccaa8f2c61f3c0e9476c255 7362 Packages
- 8d7359445e70cda50138beb5fb17d4a9d8dfad4b457eefb6e60096e1aa5d2a81 3234 Packages.gz
- 3079140c9e8109f78793807eb4d6b0ffcf1bb9b22e4a83521ee2ccd01d60aa5b 3300 Packages.bz2
+ 192e246ad63737d2eceb8e9379a60c2bdda9642af6ba594e3c9a8240773d6820 7373 Packages
+ 02b08f21f007e8348a8d4bd42fce7b0ebff5fd4af05d0608aa6adba7498331c9 3236 Packages.gz
+ 16cb449962d08c2412ca5398e45bf33273bf71bc716b1d421c096d07c5bbf7ef 3294 Packages.bz2
