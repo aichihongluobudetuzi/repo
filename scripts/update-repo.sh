@@ -5,48 +5,7 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 mkdir -p debs
 
-dpkg-scanpackages -m debs /dev/null > Packages.raw
-
-python3 - <<'PY'
-from collections import defaultdict
-from pathlib import Path
-
-raw = Path("Packages.raw").read_text()
-stanzas = [s for s in raw.strip().split("\n\n") if s.strip()]
-
-def field(stanza: str, name: str):
-    prefix = name + ": "
-    for line in stanza.split("\n"):
-        if line.startswith(prefix):
-            return line[len(prefix):]
-    return None
-
-def set_field(stanza: str, name: str, value: str) -> str:
-    prefix = name + ": "
-    lines = stanza.split("\n")
-    for i, line in enumerate(lines):
-        if line.startswith(prefix):
-            lines[i] = prefix + value
-            return "\n".join(lines)
-    lines.append(prefix + value)
-    return "\n".join(lines)
-
-by_name = defaultdict(list)
-for i, stanza in enumerate(stanzas):
-    name = field(stanza, "Name") or field(stanza, "Package") or ""
-    by_name[name].append(i)
-
-for name, indexes in by_name.items():
-    if len(indexes) < 2 or not name:
-        continue
-    for i in indexes:
-        version = field(stanzas[i], "Version") or ""
-        stanzas[i] = set_field(stanzas[i], "Name", f"{name} {version}".strip())
-
-Path("Packages").write_text("\n\n".join(stanzas) + "\n")
-PY
-
-rm -f Packages.raw
+dpkg-scanpackages -m debs /dev/null > Packages
 gzip -9n -c Packages > Packages.gz
 bzip2 -9 -c Packages > Packages.bz2
 

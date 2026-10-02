@@ -110,7 +110,25 @@ Section: Tweaks
 Priority: optional
 Description: 自用
 Author: X
-Name: 小红薯 2.0.2
+Name: 小红薯
+
+Package: com.xx.xhshook
+Version: 2.0.5
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: X
+Installed-Size: 8292
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.xx.xhshook_2.0.5_iphoneos-arm64e.deb
+Size: 3229440
+MD5sum: 623d8c4b8fdc7252535da00e6718285c
+SHA1: f43a3089700acd2f35a933970c3fc6489503dd6c
+SHA256: 4db8ed7943f468f7812669d2a84ac6299324539436418e6629a6b2e6ea1cb312
+Section: Tweaks
+Priority: optional
+Description: 自用
+Author: X
+Name: 小红薯
 
 Package: github.poqw312.settingsrevamp
 Version: 3.0.1
@@ -164,22 +182,3 @@ Author: Coolapk@Analytics
 Icon: file:///Applications/ReSign.app/Icon.png
 Name: ReSign
 
-Package: xhs.x
-Version: 2.0.5
-Architecture: iphoneos-arm64e
-Essential: no
-Maintainer: 𝙓
-Installed-Size: 8292
-Pre-Depends: rootless-compat(>= 0.9)
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Filename: debs/xhs.x_2.0.5_iphoneos-arm64e.deb
-Size: 5471410
-MD5sum: abd6e21dfa69cd35bcd68536e51a3385
-SHA1: 28b4805cfc0737aaeba84148eb4f688e748a093e
-SHA256: ca6a2144ab01d2d1c0ced8e51082ea4358d5bebc93a5c6bdfdc873bffa4b0e13
-Section: Tweaks
-Priority: optional
-Description: 自用
-Author: 𝙓
-Name: 小红薯 2.0.5
