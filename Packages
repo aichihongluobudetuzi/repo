@@ -164,3 +164,23 @@ Author: Coolapk@Analytics
 Icon: file:///Applications/ReSign.app/Icon.png
 Name: ReSign
 
+Package: xhs.x
+Version: 2.0.5
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: 𝙓
+Installed-Size: 8292
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Filename: debs/xhs.x_2.0.5_iphoneos-arm64e.deb
+Size: 5471410
+MD5sum: ae83a8d070d48a598880ef1a858938b4
+SHA1: 9acd304016360c351ca0268973bca59a8be7f73a
+SHA256: 7a2f2ec6c8680d81edf5f581536e6ac0bf28b8a26be5849ffe08f9fcd571b0b4
+Section: Tweaks
+Priority: optional
+Description: 自用
+Author: 𝙓
+Name: 小红薯
+
