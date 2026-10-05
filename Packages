@@ -150,25 +150,6 @@ Description: 自用
 Author: X
 Name: 小红薯
 
-Package: com.xx.xhshook
-Version: 2.0.7
-Architecture: iphoneos-arm64
-Essential: no
-Maintainer: X
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Provides: com.xx.xhshook
-Filename: debs/com.xx.xhshook_2.0.7_iphoneos-arm64.deb
-Size: 6214906
-MD5sum: 0ea01887e540d025bd512cd293b4ff79
-SHA1: 9df143f3fbd82f0d6ba928b232b09a5a4c94b072
-SHA256: dcdb08ec02ce7be98961461c0594c9268aeb999e90045f219126b47c7041b963
-Section: Tweaks
-Priority: optional
-Description: 自用
-Author: X
-Name: 小红薯
-
 Package: github.poqw312.settingsrevamp
 Version: 3.0.1
 Architecture: iphoneos-arm64e
