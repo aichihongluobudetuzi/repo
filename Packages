@@ -21,6 +21,26 @@ Name: 连个锤子 修复联网
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Chuizi/js.json
 Sponsor: thebigboss.org
 
+Package: com.crctdd.cranedd
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: crctdd
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: com.crctdd.cranedd
+Replaces: com.crctdd.cranedd
+Provides: com.crctdd.cranedd
+Filename: debs/com.crctdd.cranedd_0.0.1_iphoneos-arm64e.deb
+Size: 28784
+MD5sum: 491afeafc6c98a195e797fa11ecd6a52
+SHA1: e82b4f22e1ce27ecc0b9dd65cdacc3ffe1ccc2d3
+SHA256: e2ee79f442bee4eea31ecf98edf87a50014e9521b95e35b6b3007b769ac45344
+Section: Tweaks
+Priority: optional
+Description: 下拉桌面图标弹出多开应用容器,无设置项。(支持i0S15-17)
+Author: crctdd
+Name: Crane Drop Down
+
 Package: com.opa334.craneios17
 Version: 1.3.17
 Architecture: iphoneos-arm64e
