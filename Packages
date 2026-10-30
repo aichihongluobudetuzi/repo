@@ -1,3 +1,20 @@
+Package: cn.analy.resign
+Version: 2.2.10~roothide
+Architecture: iphoneos-arm64e
+Maintainer: AmorCool <admin@reprovision.dev>
+Depends: firmware (>= 15.0), zip, unzip
+Filename: debs/cn.analy.resign_2.2.10~roothide_iphoneos-arm64e.deb
+Size: 6369404
+MD5sum: fcfbc0d8c2f2df5a11ae8366f6acefa1
+SHA1: 4e46747c9ff6293bdd8966bcab83e3a7d65243db
+SHA256: a799325c654cdc75df558cabe2ae3afabb78abdfa496c734375e5ba6f5de6a2e
+Section: Utilities
+Priority: optional
+Description: Re-signing tool for iOS jailbreak(iOS17+)
+Author: Coolapk@Analytics
+Icon: file:///Applications/ReSign.app/Icon.png
+Name: ReSign
+
 Package: cn.tinyapps.renets
 Version: 1.2.2
 Architecture: iphoneos-arm64e
