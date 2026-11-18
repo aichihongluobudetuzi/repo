@@ -74,6 +74,27 @@ Description: 下拉桌面图标弹出多开应用容器,无设置项。(支持i0
 Author: crctdd
 Name: Crane Drop Down
 
+Package: com.crctdd.cranedd
+Version: 0.0.5
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: crctdd
+Depends: preferenceloader, mobilesubstrate, rootless-compat (>= 0.9)
+Conflicts: com.crctdd.cranedd
+Replaces: com.crctdd.cranedd
+Provides: com.crctdd.cranedd
+Filename: debs/com.crctdd.cranedd_0.0.5_iphoneos-arm64e.deb
+Size: 54892
+MD5sum: 76c4fff1ef8b9f4a8d085c2c8e9945a4
+SHA1: 96e0f163cf7beb57f77712cd8584d51cc80337d7
+SHA256: 7fbe6ee10b08107fd70dcf06b9f2a37c74b02acbd428b176cbd57d09df9715f3
+Section: Tweaks
+Priority: optional
+Description: 图标四方向手势切换 Crane 容器，支持重启桌面与原生分组设置页面。(支持iOS 15-17)
+Author: crctdd
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
+Name: Crane Drop Down
+
 Package: com.noads.tweka
 Version: 1.2.8
 Architecture: iphoneos-arm64e
