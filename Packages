@@ -75,6 +75,27 @@ Author: crctdd
 Name: Crane Drop Down
 
 Package: com.crctdd.cranedd
+Version: 0.0.1-5
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: crctdd
+Depends: preferenceloader, mobilesubstrate, rootless-compat (>= 0.9)
+Conflicts: com.crctdd.cranedd
+Replaces: com.crctdd.cranedd
+Provides: com.crctdd.cranedd
+Filename: debs/com.crctdd.cranedd_0.0.1-5_iphoneos-arm64e.deb
+Size: 112880
+MD5sum: 2256fda9a080d7480d31992c07ff02be
+SHA1: 126c9f9ec00e311422182a96996a3949e15a6195
+SHA256: 274b1f8aa2966db9c117b4a5ffbb0a8a95b176f889a2cc53d078aa45814f4d3b
+Section: Tweaks
+Priority: optional
+Description: 图标四方向手势切换 Crane 容器，支持重启桌面与原生分组设置页面。(支持iOS 15-17)
+Author: crctdd
+Icon: file:///Library/PreferenceLoader/Preferences/CraneDropDown.bundle/icon.png
+Name: Crane Drop Down
+
+Package: com.crctdd.cranedd
 Version: 0.0.5
 Architecture: iphoneos-arm64e
 Essential: no
