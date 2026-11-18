@@ -1,23 +1,20 @@
-# 三七
+# aichihongluobudetuzi/repo
 
-Sileo / Zebra / Cydia 可用的 APT 软件源。
+An APT source for jailbroken iOS, published with Apelin.
 
-添加地址（国内加速，推荐）：
+Add `https://aichihongluobudetuzi.github.io/repo/` in Irisin.
 
-```
-https://cdn.jsdmirror.com/gh/aichihongluobudetuzi/repo@master/
-```
+## How it works
 
-备用：
+- Packages are the `.deb` files in `debs/`, named
+  `<Package>_<Version>_<Architecture>.deb`. Apelin's Distribute… page
+  publishes a release build here; a `.deb` pushed by hand works the same.
+- On every push to `master`, `.github/workflows/update-repository.yml` runs
+  `scripts/update-repository.sh`, which indexes `debs/` into `Packages`,
+  `Packages.xz` and `Release`, and publishes the site to GitHub Pages.
+  Never commit those indexes or `_site/`.
+- `depictions/<package id>/` holds a package's depiction, icon and
+  banner; `sileo-featured.json` the banners Irisin shows at the top of the
+  source; `CydiaIcon.png`, when present, the source's icon.
 
-```
-https://cdn.jsdelivr.net/gh/aichihongluobudetuzi/repo@master/
-```
-
-把 `.deb` 放到 `debs/` 并推送到 `master` 后，GitHub Actions 会自动重建 `Packages` / `Release`。
-
-本地手动重建：
-
-```
-bash scripts/update-repo.sh
-```
+Pages may serve the previous index for up to ten minutes after a push.
