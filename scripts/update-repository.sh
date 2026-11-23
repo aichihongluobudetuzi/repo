@@ -69,7 +69,7 @@ if ((${#packages[@]} > 0)); then
   mkdir -p "$site_dir/debs"
   cp "${packages[@]}" "$site_dir/debs/"
 fi
-for file in index.html CydiaIcon.png sileo-featured.json; do
+for file in index.html CydiaIcon.png CydiaIcon@2x.png CydiaIcon@3x.png sileo-featured.json; do
   if [[ -f "$file" ]]; then
     cp "$file" "$site_dir/"
   fi
