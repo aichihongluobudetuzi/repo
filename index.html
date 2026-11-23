@@ -26,7 +26,18 @@ body {
 .card .title { font-weight: 700; margin-bottom: 3px; }
 .card .dim { opacity: 0.5; }
 .card img.qr { display: block; width: 248px; max-width: 100%; margin: 18px auto 30px; }
-a.open { color: #007aff; text-decoration: underline; }
+.links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; width: min(400px, 100%); }
+.links a {
+  flex: 1 1 160px; display: flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 13px 18px; border-radius: 14px; text-decoration: none;
+  font-weight: 600; font-size: 16px; color: #fff;
+  box-shadow: 0 6px 16px rgba(31, 35, 43, 0.14);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+}
+.links a:active { transform: scale(0.96); filter: brightness(0.92); }
+.links a.irisin { background: linear-gradient(135deg, #0a84ff, #0055d4); }
+.links a.sileo { background: linear-gradient(135deg, #2fd6c3, #0e9c98); }
+.links svg { width: 19px; height: 19px; flex: none; }
 </style>
 </head>
 <body>
@@ -38,7 +49,16 @@ a.open { color: #007aff; text-decoration: underline; }
 <p class="dim">用相机扫码，在 Irisin 中添加源</p>
 <p class="dim" id="owner"></p>
 </main>
-<a class="open" id="open">在 Irisin 中打开…</a>
+<nav class="links">
+<a class="irisin" id="open">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+在 Irisin 中打开
+</a>
+<a class="sileo" id="sileo">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
+在 Sileo 中打开
+</a>
+</nav>
 <script>
 const repository = "aichihongluobudetuzi/repo";
 const displayName = "三七";
@@ -48,6 +68,7 @@ document.getElementById("title").textContent = displayName;
 document.getElementById("address").textContent = source.replace(/^https?:[/][/]/, "").replace(/[/]+$/, "");
 document.getElementById("owner").textContent = "@" + owner;
 document.getElementById("open").href = "irisin://repository/add?url=" + encodeURIComponent(source);
+document.getElementById("sileo").href = "sileo://source/" + source;
 for (const image of document.querySelectorAll("img")) {
   image.addEventListener("error", () => { image.style.display = "none"; });
 }
