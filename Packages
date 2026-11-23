@@ -95,6 +95,27 @@ Author: crctdd
 Icon: file:///Library/PreferenceLoader/Preferences/CraneDropDown.bundle/icon.png
 Name: Crane Drop Down
 
+Package: com.crctdd.cranedd
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: crctdd
+Depends: preferenceloader, mobilesubstrate, rootless-compat (>= 0.9)
+Conflicts: com.crctdd.cranedd
+Replaces: com.crctdd.cranedd
+Provides: com.crctdd.cranedd
+Filename: debs/com.crctdd.cranedd_1.0.0_iphoneos-arm64e.deb
+Size: 141344
+MD5sum: 4c1ef2ec99b4be7b2c16daca2d2324b2
+SHA1: a200b4a09c4fec88f229263a7a63b7577db44698
+SHA256: cc373bb2d037ff1bbf87ee06ea13d83d95b9a41b506252d26851fb131ea679a8
+Section: Tweaks
+Priority: optional
+Description: 图标四方向手势切换 Crane 容器，支持重启桌面与原生分组设置页面；内置微信角标修复（Crane 分身清零后自动重发聚合红点）。(支持iOS 15-17)
+Author: crctdd
+Icon: file:///Library/PreferenceLoader/Preferences/CraneDropDown.bundle/icon.png
+Name: Crane Drop Down
+
 Package: com.noads.tweka
 Version: 1.2.8
 Architecture: iphoneos-arm64e
