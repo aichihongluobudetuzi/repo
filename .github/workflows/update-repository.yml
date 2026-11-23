@@ -39,7 +39,7 @@ jobs:
 
       - name: Build repository
         env:
-          REPOSITORY_NAME: ${{ github.event.repository.name }}
+          REPOSITORY_NAME: 三七
           REPOSITORY_OWNER: ${{ github.repository_owner }}
           SOURCE_URL: ${{ steps.pages.outputs.base_url }}
         run: ./scripts/update-repository.sh

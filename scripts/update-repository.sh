@@ -14,7 +14,7 @@ for command_name in apt-ftparchive xz; do
   fi
 done
 
-name="${REPOSITORY_NAME:-$(basename "$repository_root")}"
+name="${REPOSITORY_NAME:-三七}"
 owner="${REPOSITORY_OWNER:-$name}"
 work_dir="$(mktemp -d "$repository_root/.repo-build.XXXXXX")"
 trap 'rm -rf -- "${work_dir:?}"' EXIT
@@ -62,7 +62,7 @@ apt-ftparchive \
   -o APT::FTPArchive::Release::Codename="$name" \
   -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64 iphoneos-arm64e" \
   -o APT::FTPArchive::Release::Components="main" \
-  -o APT::FTPArchive::Release::Description="Packages from $owner" \
+  -o APT::FTPArchive::Release::Description="三七软件源" \
   release "$work_dir/indexes" > "$work_dir/Release"
 
 if ((${#packages[@]} > 0)); then

@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-Hans-CN">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>aichihongluobudetuzi/repo</title>
+<title>三七软件源</title>
 <style>
 :root { color-scheme: light; --ink: #1f232b; --page: #f2f2f7; }
 * { box-sizing: border-box; }
@@ -35,15 +35,16 @@ a.open { color: #007aff; text-decoration: underline; }
 <p class="title" id="title"></p>
 <p class="dim" id="address"></p>
 <img class="qr" id="qr" src="qr.svg" alt="">
-<p class="dim">Scan with Camera to add in Irisin</p>
+<p class="dim">用相机扫码，在 Irisin 中添加源</p>
 <p class="dim" id="owner"></p>
 </main>
-<a class="open" id="open">Open in Irisin…</a>
+<a class="open" id="open">在 Irisin 中打开…</a>
 <script>
 const repository = "aichihongluobudetuzi/repo";
+const displayName = "三七";
 const source = new URL(".", location.href).href;
-const [owner, name] = repository.split("/");
-document.getElementById("title").textContent = name || repository;
+const [owner] = repository.split("/");
+document.getElementById("title").textContent = displayName;
 document.getElementById("address").textContent = source.replace(/^https?:[/][/]/, "").replace(/[/]+$/, "");
 document.getElementById("owner").textContent = "@" + owner;
 document.getElementById("open").href = "irisin://repository/add?url=" + encodeURIComponent(source);
