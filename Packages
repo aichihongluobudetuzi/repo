@@ -219,6 +219,25 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2026/02/12/c74f8e9014b397f813069c488591aca5.jpeg
 Name: 腾讯视频NoAds
 
+Package: com.xiaobai.relaunch
+Version: 2.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Minis
+Installed-Size: 292
+Depends: firmware (>= 17.0), firmware (<< 17.4), mobilesubstrate, preferenceloader
+Conflicts: com.minis.wechatrelaunch
+Replaces: com.minis.wechatrelaunch
+Filename: debs/com.xiaobai.relaunch_2.0.0_iphoneos-arm64e.deb
+Size: 67348
+MD5sum: c9ce00f6f75e7c1e5171b6709de132a6
+SHA1: c795034b7cd5893208c1099926569eec3ee4fc15
+SHA256: b1a47f94911ce449b9dcab8a244c686a50ac0f2f8a5d888d7c5fb3f9e05670f6
+Section: Tweaks
+Priority: optional
+Description: 支持为微信、QQ等应用设置后台拉起。
+ 管理页点应用进入独立设置页；最多32个应用，等待默认30秒。
+Name: 应用后台拉起 (App Relaunch)
+
 Package: com.xx.xhshook
 Version: 2.0.2
 Architecture: iphoneos-arm64e
