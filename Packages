@@ -255,6 +255,25 @@ Description: 支持为微信、QQ等应用设置后台拉起。
  管理页点应用进入独立设置页；最多32个应用，等待默认30秒。
 Name: 应用后台拉起 (App Relaunch)
 
+Package: com.xiaobai.relaunch
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: Minis
+Installed-Size: 292
+Depends: firmware (>= 17.0), firmware (<< 17.4), mobilesubstrate, preferenceloader
+Conflicts: com.minis.wechatrelaunch
+Replaces: com.minis.wechatrelaunch
+Filename: debs/com.xiaobai.relaunch_2.0.0_iphoneos-arm64.deb
+Size: 67392
+MD5sum: 0ca0ae317fb22ec231f0a5681329c4b7
+SHA1: 5ea6d741e41a68ff7416662215c3b9fa93bd2052
+SHA256: e6c04f3f7fa8d8f93d440ad4b17f5dfdaff1d9c860c689bccefb5194bb61d0ab
+Section: Tweaks
+Priority: optional
+Description: 支持为微信、QQ等应用设置后台拉起。
+ 管理页点应用进入独立设置页；最多32个应用，等待默认30秒。
+Name: 应用后台拉起 (App Relaunch)
+
 Package: com.xx.xhshook
 Version: 2.0.2
 Architecture: iphoneos-arm64e
